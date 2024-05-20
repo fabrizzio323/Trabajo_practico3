@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Programacion Visual</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="/css/styles.css">
+	</head>
+	<body>
+		<main class="principal">
+		<header id="encabezado2">
+			<h1>Formulario Cliente</h1>
+		</header>
+		<div>
+		<form>
+		<label for="dni">Dni:</label><input id="dni" type="text" required>
+		<br>
+		<label for="nombre">Nombre:</label><input id="nombre" type="text" name="nombre" required>
+		<br>
+		<label for="apellido">Apellido:</label><input id="apellido" type="text" name="apellido" required>
+		<br>
+		<label for="fechaNacimiento">Fecha de nacimiento</label><input id="fechaNacimiento" name="fecha" type="date" required>	
+		<br>
+		<label for="genero">Genero</label><input id="genero" type="radio" name="femenino-masculino">Masculino
+		<input id="genero" type="radio" name="femenino-masculino">Femenino
+		<br>
+		<label for="email">Email</label><input id="email" type="email" name="email" placeholder="example@gmail.com" required>
+		<br>
+		<label for="direccion">Dirección</label><input id="direccion" type="direccion" name="direccion" required>
+		<br>
+		<label for="provincia">Provincia</label>
+		<select id="provincia" name="provincia" required>
+			<option value="" selected disabled hidden></option>
+			<option value="jujuy">Jujuy</option>
+			<option value="salta">Salta</option>
+			<option value="tucuman">Tucuman</option>
+			<option value="catamarca">Catamarca</option>
+			<option value="santiago del estero">Santiago del estero</option>
+			<option value="chaco">Chaco</option>
+			<option value="formosa">Formosa</option>
+			<option value="la rioja">La rioja</option>
+			<option value="cordoba">Cordoba</option>
+			<option value="santa fe">Santa fe</option>
+			<option value="entre rios">Entre rios</option>
+			<option value="corrientes">Corrientes</option>
+			<option value="misiones">Misiones</option>
+			<option value="sanJuan">San juan</option>
+			<option value="sanLuis">San luis</option>
+			<option value="mendoza">Mendoza</option>
+			<option value="neuquen">Neuquen</option>
+			<option value="laPampa">La pampa</option>
+			<option value="buenoAires">Buenos aires</option>
+			<option value="rioNegro">Rio negro</option>
+			<option value="chubut">Chubut</option>
+			<option value="santaCruz">Santa cruz</option>
+			<option value="tierraDelFuego">Tierra del fuego</option>
+		</select>
+	    <br>
+		<label for="numero">Numero de telefono</label><input id="numero" type="text" name="numero">
+		<br>
+		<label for="categoria">Categorias de interes</label>
+	    <br>
+		<input id="categoria" type="checkbox" name="categoria">Musica
+		<input id"categoria" type="checkbox" name="categoria">Juegos
+		<br>
+		<input id="categoria" type="checkbox" name="categoria">Peliculas
+		<input id="categoria" type="checkbox" name="categoria">Deportes
+		<br>
+		<input id="categoria" type="checkbox" name="categoria">Programacion
+		<input id="categoria" type="checkbox" name="categoria">Astronomia
+		<br>
+		<p id="sugerencia">Sugerencias</p>
+		<textarea name="comentario" id="comentario" rows="10" cols="30" placeholder="Escribe aqui tu recomendacion"></textarea>
+		<br>
+		<label for="contraseña">Contraseña:</label><input id="contraseña" type="password" name="contraseña" required>
+		<br>
+		<input id="aceptarTerminos" type="checkbox" name="aceptarTerminos" required><label>Acepto terminos y condiciones</label>
+	    <br>
+		<input id="recibirInfo" type="checkbox" name="recibirInfo"><label>Acepto recibir información relativa a la empresa</label>
+		<br>
+	</form>
+	</div>
+		<footer>
+			<a href="https://codigofacilito.com/cursos?utf8=%E2%9C%93&search%5Bkeyword%5D=css" target="_blank" class="enlacesPie">Curso de CSS3</a>
+		</footer>
+	</body>
+	</main>
+</html>

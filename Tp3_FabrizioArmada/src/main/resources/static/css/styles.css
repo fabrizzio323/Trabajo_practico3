@@ -1,0 +1,197 @@
+body{
+	background-color: bisque;
+}
+.principal{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 70%;
+}
+#encabezado{
+  text-align: center;
+  color: slategray ;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 5px;
+  border-radius: 25px;
+  border: 4px black solid;
+}
+.navegacion{
+	text-align: left;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+.enlaces{
+	font-family:sans-serif;
+	background-color: beige;
+	border: 6px lightslategray dotted;
+	padding: 13px;
+	color: black;
+	border-radius: 10px;
+}
+.titulos{
+	background-color: burlywood;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding:5px;
+	border-radius: 25px;
+	border: 4px black solid;
+}
+.parrafos{
+	font-family: sans-serif;
+	font-size: 18px;
+	margin:10px;
+	padding: 10px;
+	background-color: darkorange;
+	border: 5px black solid;
+	
+}
+.lista{
+  font-family: sans-serif;
+  font-size: 18px;
+  background-color: darkorange;
+  text-align: left;
+  border-radius: 25px;
+  border: 3px black solid;
+  padding: 2%;
+
+}
+.subtitulos{
+	font-size: 20px;
+	background-color: burlywood;
+	border-radius: 25px;
+	border: 4px black solid;
+	padding: 5px;
+}
+.tabla{
+	border: 3px black solid;
+	background-color: darkorange;
+	width: 100%;
+}
+.colum{
+  padding: 3px;
+  border: 3px black solid;
+}
+.contenidoAdicional{
+    margin-bottom: 30px;
+	float: left;
+
+}
+.enlaceAdicional{
+	float:right;
+	font-family:sans-serif;
+	background-color: beige;
+	border: 6px lightslategray dotted;
+	padding: 13px;
+	color: black;
+	border-radius: 10px;
+}
+.pie{
+	font-family: sans-serif;
+	font-size: 15px;
+	border-radius: 25px;
+	border:3px black solid;
+	background-color: darkorange;
+	clear:left;
+	padding: 35px;
+}
+.parrafoPie{
+	font-size: 18px;
+	margin-bottom: 3%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: beige;
+	border-radius: 25px;
+	border:3px black solid;
+	width:40%;
+}
+.enlacesPie{
+  background-color: beige;
+  border-radius: 15px;
+  padding: 10px;
+  border: 6px lightslategray dotted;	
+}
+#encabezado2{
+  text-align: center;
+  color: slategray ;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 50%;
+  padding: 3px;
+  border-radius: 25px;
+  border: 4px black solid;
+}
+label{
+	background-color: burlywood;
+	border-radius: 9px;
+	padding: 4px;
+
+}
+#dni{
+	background-color: darkgrey;
+	margin-bottom: 12px;
+}
+#nombre{
+	background-color: darkgrey;
+	margin-bottom: 12px;
+}
+#apellido{
+	background-color: darkgrey;
+	margin-bottom: 12px;
+}
+#fechaNacimiento{
+	background-color: darkgrey;
+	margin-bottom:12px;
+}
+#genero{
+	background-color: darkgrey;
+	margin-bottom:12px;
+}
+#email{
+	background-color: darkgrey;
+	margin-bottom:12px;
+}
+#direccion{
+	background-color: darkgrey;
+	margin-bottom:12px;
+}
+#provincia{
+	background-color: darkgrey;
+	margin-bottom:12px;
+}
+#numero{
+	background-color: darkgrey;
+	margin-bottom:12px;
+}
+#sugerencia{
+  text-align: center;
+  font-size: 20px;
+  color: slategray ;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 50%;
+  padding: 3px;
+  border-radius: 25px;
+  border: 4px black solid;
+}
+#comentario{
+	background-color: darkgrey;
+	margin-bottom: 12px;
+}
+#contraseña{
+	background-color: darkgrey;
+	margin-bottom:12px;
+}
+#aceptarTerminos{
+	margin-bottom: 23px;
+}
+#recibirInfo{
+	margin-bottom: 35px;
+}
